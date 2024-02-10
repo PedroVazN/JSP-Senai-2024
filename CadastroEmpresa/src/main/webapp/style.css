@@ -1,0 +1,70 @@
+        body {
+        	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        	background-color: rgb(128, 0, 255);
+        }
+
+        h1 {
+        	text-align: center;
+        	color: rgb(255, 255, 255);
+        	margin-top: 50px;
+        }
+
+        .container {
+        	display: flex;
+        	justify-content: center;
+        	margin-top: 20px;
+        }
+
+        .form-container {
+        	width: 50%;
+        	background-color: #fff;
+        	padding: 20px;
+        	border-radius: 10px;
+        	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        	margin-left: 80px;
+
+        }
+
+        form {
+        	width: 100%;
+        }
+
+        p {
+        	margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+        	width: calc(100% - 20px);
+        	padding: 10px;
+        	border: 1px solid #ccc;
+        	border-radius: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+        	padding: 10px 20px;
+        	background-color: #8A2BE2;
+        	border-radius: 5px;
+        	cursor: pointer;
+        	color: #fff;
+        	margin-right: 30px;
+        	border: none;
+        	margin-left: 120px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+        	background-color: #9370DB;
+        }
+
+        .image-container {
+        	width: 50%;
+        }
+
+        img {
+        	max-width: 100%;
+        	height: auto;
+        	display: block;
+        	margin: 0 auto;
+        }
